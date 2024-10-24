@@ -1,0 +1,2 @@
+prepend-non-duplicate;GZ_SIM_MODEL_PATH;share/me495_gazebo/models
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/me495_gazebo/worlds
