@@ -1,2 +1,4 @@
 prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/me495_gazebo/models
 prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/me495_gazebo/worlds
+prepend-non-duplicate;GZ_SIM_PLUGIN_PATH;share/me495_gazebo/plugins
+prepend-non-duplicate;GZ_SYSTEM_PLUGIN_PATH;share/me495_gazebo/plugins

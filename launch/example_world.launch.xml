@@ -1,0 +1,10 @@
+<!-- Launch the example world -->
+<launch>
+  <arg name="use_gui" default="True" description="Run the gazebo gui" />
+  <gz_server
+    world_sdf_file="example.world.sdf"
+    create_own_container="True"
+    use_composition="True">
+  </gz_server>
+  <executable cmd="gz sim -g" if="$(var use_gui)" on_exit="shutdown" />
+</launch>
