@@ -1,10 +1,25 @@
-<!-- Launch the example world -->
+<!-- Launch the example world and spawn an example urdf file-->
 <launch>
   <arg name="use_gui" default="True" description="Run the gazebo gui" />
   <gz_server
+    world_sdf_string="example_world"
     world_sdf_file="example.world.sdf"
-    create_own_container="True"
-    use_composition="True">
-  </gz_server>
+    create_own_container="False"
+    use_composition="False" />
+
+  <gz_spawn_model
+    world=""
+    file="$(find-pkg-share ros_gz_sim_demos)/models/vehicle/model.sdf"
+    model_string=""
+    topic=""
+    entity_name=""
+    allow_renaming="False"
+    x="0.0"
+    y="0.0"
+    z="0.0"
+    roll=""
+    pitch=""
+    yaw="" />
+
   <executable cmd="gz sim -g" if="$(var use_gui)" on_exit="shutdown" />
 </launch>
