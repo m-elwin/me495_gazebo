@@ -18,4 +18,5 @@ It depends on `ros_gz` and `ros_gz_sim_demos`.
 
 # Further Reading
 [ME450 Gazebo Notes](https://nu-msr.github.com/ros_notes/simulation.html)
+
 [Northwestern MS in Robotics](https://www.mccormick.northwestern.edu/robotics/)
