@@ -67,12 +67,12 @@
       <self_collide>false</self_collide>
     </model>
     <include>
-      <uri>file:///home/elwin/ws/gazebo/install/me495_gazebo/share/me495_gazebo/models/turtle_inv</uri>
+      <uri>model:///turtle_inv</uri>
       <name>turtle_inv</name>
       <pose>2.6503627996837302 -2.8760094783977133 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/elwin/.gz/fuel/fuel.gazebosim.org/openrobotics/models/pallet_standard/1</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pallet_Standard</uri>
       <name>Pallet_Standard</name>
       <pose>2.2557921085316615 -1.4732823939808795 0 0 0 0</pose>
     </include>
