@@ -21,7 +21,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/env-hooks', ['env-hooks/me495_gazebo.dsv']),
+        ('share/' + package_name + '/hook', ['env-hooks/me495_gazebo.dsv']),
         *recursive_files('share/' + package_name, "models"),
         *recursive_files('share/' + package_name, "worlds"),
         *recursive_files('share/' + package_name, "launch")

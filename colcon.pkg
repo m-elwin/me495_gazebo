@@ -1,3 +1,3 @@
 {
-    "hooks": ["share/me495_gazebo/env-hooks/me495_gazebo.dsv"]
+    "hooks": ["share/me495_gazebo/hook/me495_gazebo.dsv"]
 }
